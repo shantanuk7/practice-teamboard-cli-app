@@ -1,0 +1,25 @@
+{
+  "name": "teamboard-cli-app",
+  "version": "1.0.0",
+  "description": "TeamBoard is a simple project management tool that lets users create and manage projects and teams. This has been created to learn software development concepts such as OOPS, Clean coding, Git & GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanuk7/practice-teamboard-cli-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shantanuk7/practice-teamboard-cli-app/issues"
+  },
+  "homepage": "https://github.com/shantanuk7/practice-teamboard-cli-app#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.0",
+    "@commitlint/config-conventional": "^20.4.0"
+  }
+}
