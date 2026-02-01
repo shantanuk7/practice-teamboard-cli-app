@@ -46,3 +46,27 @@ Important actions should be trackable:
 6. Permissions (Simple)
 - Only project members can interact with a project.
 - Certain actions may be restricted to owners or admins.
+
+## Commit message guidelines
+
+This project enforces **Conventional Commits** using **commitlint**.
+
+### Requirements
+
+- Commit messages must follow the Conventional Commits format
+- A **subject and a non-empty body** are required
+- Validation runs **locally on commit** and **in CI**
+- Make sure nodejs v24.13.0 or greater is installed.
+- Make sure npm v11.0 or greater is installed.
+
+### Local setup (required)
+
+After cloning the repository, install dependencies:
+
+```bash
+npm install
+
+Then make sure the Git commit hook is executable:
+
+```bash
+chmod +x .git/hooks/commit-msg
