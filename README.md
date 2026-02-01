@@ -65,8 +65,10 @@ After cloning the repository, install dependencies:
 
 ```bash
 npm install
+```
 
 Then make sure the Git commit hook is executable:
 
 ```bash
 chmod +x .git/hooks/commit-msg
+```
