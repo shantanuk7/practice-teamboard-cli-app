@@ -1,4 +1,4 @@
-# TeamBoard - A simpe CLI based Project Management System
+# TeamBoard - A simple CLI based Project Management System
 
 TeamBoard is a simple project management tool that lets users create and manage projects and teams. This has been created to learn software development concepts such as OOPS, Clean coding, Git & GitHub.
 
